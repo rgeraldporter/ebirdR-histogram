@@ -20,6 +20,6 @@ bird <- function(vx, sx) {
   return(result)
 }
 
-birdBar <- function(bird) {
-  barplot(as.matrix(bird), main=, xlab="Months", ylab="Occurence",col="blue")
+birdBar <- function(bird, birdName="") {
+  barplot(as.matrix(bird), main=birdName, sub="McMaster Forest, 2013-2016", xlab="Months", ylab="Occurence",col="blue")
 }
